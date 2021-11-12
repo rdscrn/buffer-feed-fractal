@@ -1,4 +1,4 @@
-Simple buffer fractal making with images and self-feeding surfaces. Using pygame. Modify the code for different options.
+Simple image buffer fractal making script that uses pygame and self-feeding surface classes.
 
 Controls:
 
