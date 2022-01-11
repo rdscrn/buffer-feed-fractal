@@ -71,8 +71,11 @@ def main():
     imbuf=(pygame.image.tostring(screen_alpha, 'RGBA'), screen_alpha.get_size())
     sbuf=(pygame.image.tostring(IMGTOFRAC, 'RGBA'), IMGTOFRAC.get_size())
 
+    #have an offcenter apple
     sgroup.add(PivotSprite(sbuf, screen_alpha, .6, (320,240), (100,0)))
 
+    #three different fractal seeds, why not?
+    fgroup.add(PivotSprite(imbuf, screen_alpha, .7, (120,240)))
     fgroup.add(PivotSprite(imbuf, screen_alpha, .7, (120,240)))
     fgroup.add(PivotSprite(imbuf, screen_alpha, .6, (320,240)))
 
@@ -80,7 +83,9 @@ def main():
     drag = False
 
     while True:
+        #banana ro ta te
         sgroup.sprites()[0].angle += 10
+        
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
