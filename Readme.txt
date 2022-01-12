@@ -4,6 +4,7 @@ pygame is required
 Controls:
 
 Drag surfaces with mouse
+Mouse wheel to scale up and down
 B -> Hide surface borders
 Q -> Rotate left
 E -> Rotate right
