@@ -1,7 +1,6 @@
 # buffer-feed-fractal
 
-Simple buffer fractal that generates on self-feeding surfaces. Based on CodeParade's Analog Fractal idea: https://www.youtube.com/watch?v=Pv26QAOcb6Q
-pygame is required
+Simple buffer fractal that generates on self-feeding surfaces. Based on [CodeParade's Analog Fractal idea](https://www.youtube.com/watch?v=Pv26QAOcb6Q). pygame is required
 
 Controls:
 
